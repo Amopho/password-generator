@@ -5,6 +5,7 @@
 }
 
 .neon-text {
+  word-wrap: normal;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +16,7 @@
   font-family: neon;
   font-size: 3rem;
   color: #ffd8d8;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.05em;
   text-shadow: 0.1vw 0vw 0.25vw #ffd8d8, 0.2vw 0vw 0.25vw #ffd8d8,
     0.4vw 0vw 0.25vw #ffd8d8, 0.1vw 0vw 0vw #f25757, 0.2vw 0vw 0vw #f25757,
     0.4vw 0vw 0vw #f25757, 0.1vw 0vw 0.1vw #f25757, 0.2vw 0vw 0.1vw #f25757,
