@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="neon-text">Password generator</div>
-      <div class="text">Generate your password</div>
+    <div class="neon-wrapper">
+      <div class="neon-text">
+        Password <br />
+        generator
+      </div>
     </div>
+    <div class="text">Generate your password</div>
+    <form>
+      <input type="text" class="userInput" />
+      <input type="button" value="Copy to clipboard" class="copyButton" />
+      <!-- <span>fontawesome copy/paste</span> -->
+    </form>
+    <!-- js script -->
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

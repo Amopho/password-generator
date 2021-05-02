@@ -9,10 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20rem;
-  height: 20rem;
-  border-radius: 10rem;
-  border: solid 5px #ffd8d8;
   font-family: neon;
   font-size: 3rem;
   color: #ffd8d8;
@@ -27,6 +23,16 @@
     0.4vw 0vw 10vw #e50b0b;
 }
 
+.neon-wrapper {
+  box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e97272,
+    0 0 4vw 0.4vw #e50b0b, inset 0 0 1.5vw 0.4vw #e50b0b,
+    inset 0 0 0.4vw 0.2vw #e97272, inset 0 0 0.5vw 0.2vw #fff7f7;
+  border-radius: 1.5rem;
+}
+.neon-text {
+  padding: 0 3.5rem 0 3.5rem;
+}
+
 html,
 body {
   font-family: "Roboto Mono", monospace;
@@ -35,6 +41,8 @@ body {
 }
 
 .container {
+  background-color: url("../images/black-concrete-textured-background.jpg");
+  background-size: auto 100%;
   height: 100%;
   width: 100%;
   justify-content: center;
