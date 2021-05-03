@@ -4,13 +4,30 @@
   src: url("../fonts/neon-future/Neon\ Future.ttf");
 }
 
+html,
+body {
+  font-family: "Roboto Mono", monospace;
+  background: #212121;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5vh;
+}
+
 .neon-text {
   word-wrap: normal;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 80vh;
+  height: auto;
   font-family: neon;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #ffd8d8;
   letter-spacing: 0.05em;
   text-shadow: 0.1vw 0vw 0.25vw #ffd8d8, 0.2vw 0vw 0.25vw #ffd8d8,
@@ -27,29 +44,11 @@
   box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e97272,
     0 0 4vw 0.4vw #e50b0b, inset 0 0 1.5vw 0.4vw #e50b0b,
     inset 0 0 0.4vw 0.2vw #e97272, inset 0 0 0.5vw 0.2vw #fff7f7;
-  border-radius: 1.5rem;
-}
-.neon-text {
-  padding: 0 3.5rem 0 3.5rem;
-}
-
-html,
-body {
-  font-family: "Roboto Mono", monospace;
-  background: #212121;
-  height: 100%;
+  border-radius: 8rem;
+  width: 15rem;
+  height: 15rem;
 }
 
-.container {
-  background-color: url("../images/black-concrete-textured-background.jpg");
-  background-size: auto 100%;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
 .text {
   font-weight: 100;
   font-size: 28px;
