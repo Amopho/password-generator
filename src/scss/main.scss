@@ -20,16 +20,15 @@ body {
 }
 
 .neon-text {
-  // width: 10rem;
-  // height: 10rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
-  // word-wrap: normal;
-  // display: table-cell;
-  // align-items: center;
-  // justify-content: center;
+  word-wrap: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 3rem;
   font-family: neon;
   font-size: 2rem;
   color: #ffd8d8;
@@ -51,6 +50,13 @@ body {
   // border-radius: 8rem;
   width: 15rem;
   height: 15rem;
+}
+
+.input-field {
+  border: #212121 2px solid;
+  width: 20rem;
+  height: 15rem;
+  background: #212121;
 }
 
 .text {
