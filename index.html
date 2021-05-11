@@ -25,10 +25,15 @@
       </div>
     </div>
     <div class="input-field">
-      <h1 class="text">Generate your password</h1>
+      <div class="text result__viewbox" id="result">click generate</div>
       <form>
-        <input type="text" class="userInput" />
-        <input type="button" value="Copy to clipboard" class="copyButton" />
+        <input
+          type="button"
+          value="Copy to clipboard"
+          class="copyButton"
+          id="copy-btn"
+        />
+        <button class="btn generate" id="generate">Click to generate</button>
         <!-- <span>fontawesome copy/paste</span> -->
       </form>
     </div>
