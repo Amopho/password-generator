@@ -3,59 +3,58 @@
   font-family: neon;
   src: url("../fonts/neon-future/Neon Future.ttf");
 }
-html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto Mono", monospace;
   background: #212121;
-  height: 100%;
-}
-
-.container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 5vh;
-}
-
-.neon-text {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-  word-wrap: normal;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 3rem;
-  font-family: neon;
-  font-size: 2rem;
-  color: #ffd8d8;
-  letter-spacing: 0.05em;
-  text-shadow: 0.1vw 0vw 0.25vw #ffd8d8, 0.2vw 0vw 0.25vw #ffd8d8, 0.4vw 0vw 0.25vw #ffd8d8, 0.1vw 0vw 0vw #f25757, 0.2vw 0vw 0vw #f25757, 0.4vw 0vw 0vw #f25757, 0.1vw 0vw 0.1vw #f25757, 0.2vw 0vw 0.1vw #f25757, 0.4vw 0vw 0.1vw #f25757, 0.1vw 0vw 2vw #f25757, 0.2vw 0vw 2vw #f25757, 0.4vw 0vw 2vw #f25757, 0.1vw 0vw 1vw #e50b0b, 0.2vw 0vw 1vw #e50b0b, 0.4vw 0vw 5vw #e50b0b, 0.1vw 0vw 5vw #e50b0b, 0.2vw 0vw 20vw #e50b0b, 0.4vw 0vw 10vw #e50b0b, 0.1vw 0vw 10vw #e50b0b, 0.2vw 0vw 30vw #e50b0b, 0.4vw 0vw 10vw #e50b0b;
+  height: 100vh;
+  width: 100vw;
 }
 
 .neon-wrapper {
   box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e97272, 0 0 4vw 0.4vw #e50b0b, inset 0 0 1.5vw 0.4vw #e50b0b, inset 0 0 0.4vw 0.2vw #e97272, inset 0 0 0.5vw 0.2vw #fff7f7;
-  width: 15rem;
-  height: 15rem;
+  width: 18rem;
+  height: 18rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.neon-text {
+  margin: 25px auto;
+  line-height: 4.5rem;
+  word-wrap: normal;
+  text-align: center;
+  font-family: neon;
+  font-size: 2rem;
+  font-weight: 100;
+  color: #ffd8d8;
+  letter-spacing: 0.33rem;
+  text-shadow: 0.1vw 0vw 0.25vw #ffd8d8, 0.2vw 0vw 0.25vw #ffd8d8, 0.4vw 0vw 0.25vw #ffd8d8, 0.1vw 0vw 0vw #f25757, 0.2vw 0vw 0vw #f25757, 0.4vw 0vw 0vw #f25757, 0.1vw 0vw 0.1vw #f25757, 0.2vw 0vw 0.1vw #f25757, 0.4vw 0vw 0.1vw #f25757, 0.1vw 0vw 2vw #f25757, 0.2vw 0vw 2vw #f25757, 0.4vw 0vw 2vw #f25757, 0.1vw 0vw 1vw #e50b0b, 0.2vw 0vw 1vw #e50b0b, 0.4vw 0vw 5vw #e50b0b, 0.1vw 0vw 5vw #e50b0b, 0.2vw 0vw 20vw #e50b0b, 0.4vw 0vw 10vw #e50b0b, 0.1vw 0vw 10vw #e50b0b, 0.2vw 0vw 30vw #e50b0b, 0.4vw 0vw 10vw #e50b0b;
 }
 
 .input-field {
   border: #212121 2px solid;
-  width: 20rem;
-  height: 15rem;
+  width: 18rem;
+  height: 18rem;
   background: #212121;
+  margin: 1rem;
 }
 
 .text {
   font-weight: 100;
   font-size: 28px;
   color: #fafafa;
-}
-
-.dud {
-  color: #757575;
 }
 
 /*# sourceMappingURL=main.css.map */
