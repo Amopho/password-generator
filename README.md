@@ -6,7 +6,7 @@ A random 30-digits password generator made with elements from DOM accompanied by
 
 ## About DOM
 
-Import issues while working with DOM:
+Important issues while working with DOM:
 
 ### SPA
 
