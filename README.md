@@ -1,8 +1,12 @@
 # password-generator
 
+A random 30-digits password generator made with elements from DOM accompanied by the neon scss style. It has a feature of copying the generated string into clipboard.
+
 ![Preview](./src/images/glimpse-password.png)
 
 ## About DOM
+
+Import issues while working with DOM:
 
 ### SPA
 
@@ -44,7 +48,7 @@
 - Selecting by CSS query: `document.querySelector(<selector string>)`
 - Getting more than one element: `document.querySelectorAll(<selector string>)`
 
-[28/04/2020](apr/28-04)
+### Traversing in DOM
 
 - DOM Traversing: Jumping from one element to its relative
 - Node vs. Element:
@@ -55,18 +59,13 @@
 - Selecting specific children: `ParentNode.querySelector(<selector string>)`
 - Finding more traversal techniques: MDN
 
-[29/04/2020](apr/29-04)
+### Event listeners
 
 - Event listeners
 - update to the generate password exercise
 - simple game
 
-[03/05/2020](may/03-05)
-
-- recap
-- Q & A
-
-[04/05/2020](may/04-05)
+### Clear in DOM
 
 - User Events (interaction) and Browser Events (loading, etc...)
 - Keyboard Events: `keydown`, `keyup`
@@ -82,7 +81,7 @@
 - Finding more events on MDN"
 - 4 exercises (currency converter _ weekend count-down _ numeral-system converter \* image-slider )
 
-[05/05/2020](may/05-05)
+### JSON
 
 - JSON
 - Brief overview of IIFE and the Module pattern
@@ -93,7 +92,7 @@
 - Default exports vs. named exports
 - Destructuring imports
 
-[06/05/2020](may/06-05)
+### Promise
 
 - The request response cycle - Client perspective
 - Non-Blocking Promises
@@ -104,11 +103,7 @@
 - Breaking Promises
 - fetch() and fetch API
 
-[11/05/2020](may/11-05)
+### Promise async
 
 - promises
 - async await
-
-[12/05/2020](may/12-05)
-
-- tic tac toe (XO) with DOM
